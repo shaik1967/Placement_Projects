@@ -1,0 +1,39 @@
+.Specialist-item{
+    width:100%;
+    margin:auto;
+    border-radius:15px;
+    box-shadow :0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+.Specialist-item-img{
+    width:100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.Specialist-item-info{
+    padding:10px;
+}
+.Specialist-item-Booking{
+    display: grid;
+    grid-template-columns: auto auto; /* Two rows, each sized automatically */
+    gap: 5px; /* Gap between rows */
+    align-items: center; /* Align items horizontally */
+    margin-bottom: 10px; 
+}
+.Specialist-item-Booking p{
+    font-size: 20px;
+    font-weight:500;
+}
+.Specialist-item-Booking button{
+    background:transparent;
+    font-size: 10px;
+    color:#49557e;
+    border: 1px solid tomato;
+    padding :10px 10px;
+    border-radius:20px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.Specialist-item-Booking button:hover{
+    background-color: #fff4f2;
+}

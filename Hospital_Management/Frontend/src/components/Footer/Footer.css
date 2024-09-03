@@ -1,0 +1,111 @@
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'); 
+footer{
+    position: relative;
+    height:auto;
+    padding:10px 2px;
+    background: #d9d9d9;
+    width:80%;
+    margin:0 auto;
+    /* margin-top:100px; */
+}
+.Footer{
+    width:100%;
+    margin: 0px auto;
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap:20px;
+    padding:2px 5vw;
+    padding-top:3px;
+}
+.Footer .sec-aboutus h2{
+    position:relative;
+    color:black;
+    font-weight: 600;
+    margin-bottom:7px;
+}
+.Footer .sec-aboutus p{
+    color:black;
+
+}
+.Footer .sec-aboutus .sci{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns:repeat(4,50px);
+    gap:1px;
+}
+.Footer .sec-aboutus .sci li{
+      list-style: none;
+}
+.Footer .sec-aboutus .sci li a{
+    display:inline-block;
+    width:36px;
+    height:36px;
+    background:#333;
+    display:grid;
+    align-content:center;
+    justify-content:center;
+    text-decoration: none;
+}
+.Footer .sec-aboutus .sci li a i{
+    color:#d9d9d9;
+    font-size:25px;
+}
+.sec-quicklinks li,h2{
+    list-style:none;
+    color:black;
+    margin-bottom:10px;
+}
+.sec-quicklinks ul li a{
+    margin-bottom: 1px;
+    display:inline-block;
+}
+.sec-contact li,h2{
+    list-style:none;
+    color:black;
+}
+.sec-contact .info li{
+    display:grid;
+    grid-template-columns:30px 1fr;
+    margin-bottom: 16px;
+}
+.sec-contact .info li span{
+    color:black;
+    font-size:20px;
+}
+.CopyrightText{
+    background: #d9d9d9;
+    width:80%;
+    margin:0 auto;
+    padding: 5px 50px 20px;
+    text-align:center;
+}
+footer hr{
+    width:80%;
+    height:2px;
+    margin:20px auto ;
+    background-color: grey;
+    border: none;
+}
+@media(max-width:991px){
+   footer{
+    padding: 40px;
+   }
+   footer .Footer{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+   }
+   .CopyrightText{
+     padding:20px 40px 30px;
+   }
+}
+
+@media(max-width:768px){
+    footer .Footer{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+   }
+}
